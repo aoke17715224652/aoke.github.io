@@ -1,0 +1,30 @@
+
+<!--DOCTYPE 告诉浏览器，使用的规范-->
+<!DOCTYPE html>
+<html lang="en">
+<!-- head表示网页的头部-->
+<head>
+    <!--  meta 表示网页用的信息
+          charset 设置网页的格式
+      -->
+
+    <meta charset="UTF-8">
+    <!--  title 表示网页的标题  -->
+    <title>登录页面</title>
+</head>
+<!--body 表示页面的主体-->
+<body>
+  <form  method="post"  action="HomePage.html">
+<!--  登录页面的图片，可以点击图片注册账号 -->
+   <a href="RegistrationPage.html" target="_blank">
+   <img src="../resources/image/登录页面图片1.jpg" alt="黑白图片" title="点击注册账号" width="400" height="300">
+   </a>
+   <p>用户名:<input name="name" type="text"></p>
+   <p>密码:<input  name="password" type="password"></p>
+   <p>
+       <input name="empty" type="reset" value="清空">
+       <input name="signin" type="button" value="登录">
+   </p>
+  </form>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+</head>
+<body>
+  <form action="LoginPage.html" method="post">
+     <p>登录名:<input name="name" type="text" value="赵六"> </p>
+     <p>密码:<input  name="password" type="password"></p>
+     <p>确认密码:<input  name="confirmpassword" type="password"></p>
+     <p>性别:
+         <input name="sex" type="radio" value="boy" checked >男 <!-- chacked默认选中 -->
+         <input name="sex" type="radio" value="girl">女
+     </p>
+     <p>个人介绍:<textarea rows="5"></textarea></p>
+     <p>爱好:
+         <input name="hobby" type="checkbox" checked>游戏
+         <input name="hobby" type="checkbox">音乐
+         <input name="honny" type="checkbox">动漫
+         <input name="hobby" type="checkbox">电视剧
+         <input name="hobby" type="checkbox">电影
+         <input name="hobby" type="checkbox">小说
+         <input name="hobby" type="checkbox">文件
+         <input name="hobby" type="checkbox">其他
+     </p>
+     <p>出生日期: <input name="date" type="date"></p>
+     <p>省份:
+         <select name="province" >
+             <option value="pleaseselect">请选择</option>
+             <option selected="selected" value="henan"> 河南省</option> <!-- selected表示默认 -->
+             <option value="shanghai">上海市</option>
+             <option value="qita">其他省</option>
+         </select>
+     </p>
+     <p>
+         <input name="empty" type="reset" value="清空">
+         <input name="preservation"  type="button" value="保存">
+     </p>
+      <a href="LoginPage.html" target="_blank">
+      <img src="../resources/image/注册页面图片1.jpg" alt="世界地图" title="点击登记账号" height="300" width="600">
+      </a>
+   </form>
+</body>
+</html>
